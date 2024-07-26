@@ -1,0 +1,28 @@
+.custom-card-img-container {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .custom-card-img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover;*/
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-card-img-container:hover .custom-card-img {
+    transform: scale(1.1);
+  }
+  
+  .box_overlay {
+    background-color: rgba(0, 0, 0, 0.192);
+    top: -100%;
+    height: 100%;
+    transition: top 0.3s ease;
+  }
+  
+  .custom-card-img-container:hover .box_overlay {
+    top: 0;
+  }
+  

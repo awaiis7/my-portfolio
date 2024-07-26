@@ -1,0 +1,20 @@
+
+.typed-text {
+    font-size: 2rem;
+    color: white;
+    display: inline-block;
+  }
+  
+  @media (min-width: 768px) {
+    .typed-text {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .typed-text {
+      font-size: 2rem;
+    }
+  }
+
+  

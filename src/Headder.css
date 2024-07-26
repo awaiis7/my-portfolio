@@ -1,0 +1,108 @@
+
+
+.rotate-on-hover:hover {
+    animation: rotate-animation 0.5s ease-in-out;
+    
+  }
+  .rotate-on-hover{
+    font-size: 35px;
+  }
+  
+  @keyframes rotate-animation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .home-link {
+    font-size: 1.4rem; /* Adjust the size as needed */
+  }
+
+  .rotate-on-hover {
+    transition: transform 0.3s;
+  }
+  
+  .rotate-on-hover:hover {
+    transform: rotate(360deg);
+  }
+  
+  .navbarchild{
+background-color: black;
+box-shadow: 4px 3px gray;
+padding: 15px 0px;
+font-size: 25px;
+
+  }
+
+
+  /* Custom styles for white navbar */
+.navbar-white {
+  background-color: rgb(0, 0, 0) !important;
+  color: white;
+}
+
+.navbar-white .nav-link {
+  color: white !important;
+}
+
+.navbar-white .navbar-brand {
+  color: white !important;
+}
+
+.navbar-white .navbar-toggler-icon {
+  color: white !important;
+}
+.toggle{
+  color: white !important;
+}
+.mainsame {
+  background-color: white;
+  color: white;
+}
+
+.container-content {
+  padding-top: 2rem;
+}
+
+.pt-5, .pb-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+
+/* Custom styles for the Navbar toggle button */
+.navbarchild .navbar-toggler-icon {
+  background-color: white;
+}
+
+
+/* Headder.css */
+.navbarchild .navbar-toggler {
+  border: none;
+  outline: none;
+  padding: 0.5rem; /* Increase padding for larger area */
+}
+
+.navbarchild .navbar-toggler .icon-bar {
+  background-color:white;
+  display: block;
+  width: 30px; /* Increase width for larger icon */
+  height: 4px; /* Increase height for thicker bars */
+  border-radius: 1px;
+  margin: 6px 0; /* Increase margin for better spacing */
+  transition: all 0.2s;
+}
+
+.navbarchild .navbar-toggler.active .icon-bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.navbarchild .navbar-toggler.active .icon-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.navbarchild .navbar-toggler.active .icon-bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}

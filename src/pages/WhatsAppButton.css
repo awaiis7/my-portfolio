@@ -1,0 +1,24 @@
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    z-index: 1000; /* Make sure it appears above other elements */
+    background-color:  rgba(60, 235, 7, 0.938);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-button.active {
+    background-color: rgba(70, 146, 7, 0.719); /* Active color */
+  }
+  
+  .whatsapp-button:focus {
+    outline: none;
+  }
+  

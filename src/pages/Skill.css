@@ -1,0 +1,44 @@
+.bg-gray-900 {
+    background-color: #1a202c;
+}
+.sklls{
+padding: 70px 0px;
+}
+.text-white {
+    color: #fff;
+}
+
+.skill-card {
+    border: none;
+    background-color: #2d3748;
+    text-align: center;
+    padding: px;  /* Reduce padding for smaller card size */
+    transition: transform 0.2s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-card img {
+    width: 30px;  /* Reduce size of image */
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.skill-card h3 {
+    font-size: 1rem;  /* Smaller font size */
+    margin: 0;
+    color: white;  /* Set text color to white */
+}
+
+@media (max-width: 576px) {
+    .skill-card img {
+        width: 25px;  /* Smaller size for mobile */
+        height: 25px;
+    }
+    
+    .skill-card h3 {
+        font-size: 0.875rem;  /* Smaller font size for mobile */
+    }
+}

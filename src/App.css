@@ -1,0 +1,18 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+/* index.css */
+.header {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .footer {
+    font-family: 'MyCustomFont', sans-serif;
+  }
+  

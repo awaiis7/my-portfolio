@@ -1,0 +1,6 @@
+.footerb{
+    background-image: linear-gradient( rgba(8, 0, 0, 0.493),rgb(0, 0, 0));
+}
+.boxcard{
+    box-shadow: 5px 5px rgba(8, 0, 0, 0.815), 10px 10px rgba(15, 0, 0, 0.315);
+}
