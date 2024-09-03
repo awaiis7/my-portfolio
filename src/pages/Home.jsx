@@ -17,7 +17,7 @@ function Home() {
         <Row className="main">
           <Col xs={12} lg={6} className="mb-3 mb-lg-0">
             <Type />
-            <h2 className="name">Muhammad Sohaib</h2>
+            <h2 className="name">Awais Ahmed</h2>
             <Button
               variant="dark"
               className="mt-3 p-2"
@@ -28,10 +28,10 @@ function Home() {
           </Col>
           <Col xs={12} lg={6} className="mainspiring">
             <p className="aspiring">
-              Aspiring web developer, studying Computer Science, eager for an
-              internship. Skilled in HTML, CSS, JavaScript, and keen on learning
-              React for better websites. Interested in backend tools like
-              Node.js, Express, and databases. Knows Git and GitHub for managing
+            Aspiring web developer, studying business and information technology(BBIT) from UET,Lahore. I have
+               Skilled in HTML, CSS, JavaScript, and keen on learning
+              React to enhance my skilled in <b>MERN</b> stack development. I also made and deploy a website using backend technolgies like node.js,exprss.js and mongodb database.
+               Knows Git and GitHub for managing
               code. Enthusiastic about full stack development and always ready
               to learn. Good communicator, passionate about creating awesome web
               projects.

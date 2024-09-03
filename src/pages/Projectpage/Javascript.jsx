@@ -13,6 +13,15 @@ const products = [
     link: 'https://sohaibshareefcode.github.io/crud_system-local-storage/'
   },
   // More products...
+  {
+    id: 2,
+    name: 'SOCIAL-MEDIA app using valina javascript',
+    imageSrc: 'https://res.cloudinary.com/dbe9eo4bd/image/upload/v1725310710/Screenshot_2_j7ykuj.png',
+    imageAlt: "it is a fake social media app usnig valina javascript,implement impressive UI even you can change theme of this social app,you can comment there ,you can like the images but you have to sign up then you can use such amazing functionalities",
+    price: '$35',
+    color: 'Black',
+    link: 'https://awaiis7.github.io/social-media-app/'
+  },
 ];
 function Javascript() {
   return (

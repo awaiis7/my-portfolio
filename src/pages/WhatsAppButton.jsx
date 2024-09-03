@@ -6,7 +6,7 @@ const WhatsAppButton = () => {
   const [isActive, setIsActive] = useState(false);
   const handleClick = () => {
     setIsActive(true);
-    window.open("https://wa.me/03011589269", "_blank");
+    window.open("https://wa.me/+923311323017", "_blank");
   };
   return (
     <Button
