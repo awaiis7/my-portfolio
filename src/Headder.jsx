@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link, Outlet } from "react-router-dom";
 import { MdOutlineCoronavirus } from "react-icons/md";
 import './Headder.css';
 
@@ -31,11 +32,11 @@ function Headder() {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home" onClick={handleClose}>Home</Nav.Link>
-              <Nav.Link href="#experience" onClick={handleClose}>Experience</Nav.Link>
-              <Nav.Link href="#skills" onClick={handleClose}>Skills</Nav.Link>
-              <Nav.Link href="#project" onClick={handleClose}>Project</Nav.Link>
-              <Nav.Link href="#contact" onClick={handleClose}>Contact</Nav.Link>
+              <Nav.Link href="#home" className="thick-border"  onClick={handleClose}>Home</Nav.Link>
+              <Nav.Link href="#experience" className="thick-border" onClick={handleClose}>Experience</Nav.Link>
+              <Nav.Link href="#skills" className="thick-border" onClick={handleClose}>Skills</Nav.Link>
+              <Nav.Link href="#project" className="thick-border" onClick={handleClose}>Project</Nav.Link>
+              <Nav.Link href="#contact" className="thick-border" onClick={handleClose}>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

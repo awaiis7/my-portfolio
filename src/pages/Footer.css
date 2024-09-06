@@ -4,3 +4,57 @@
 .boxcard{
     box-shadow: 5px 5px rgba(8, 0, 0, 0.815), 10px 10px rgba(15, 0, 0, 0.315);
 }
+.github {
+   
+    /* Combined effect */
+
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color:grey ;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Hover effect */
+  .github:hover {
+    transform: scale(1.1) rotate(360deg); /* Scale and rotate */
+    background-color: black; /* Change color */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* Enhanced shadow */
+  }
+
+  .linkedin {
+   
+    /* Combined effect */
+
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color:rgb(16, 94, 131) ;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover effect */
+  .linkedin:hover {
+    transform: scale(1.2) rotate(360deg) ; /* Scale and rotate */
+    background-color: rgb(5, 34, 197); /* Change color */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* Enhanced shadow */
+  }
+
+  .gmail {
+   
+    /* Combined effect */
+
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    background-color:rgb(207, 57, 57) ;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Hover effect */
+  .gmail:hover {
+    transform: scale(1.1) rotate(360deg); /* Scale and rotate */
+    background-color: rgb(233, 3, 3); /* Change color */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* Enhanced shadow */
+  }
+  

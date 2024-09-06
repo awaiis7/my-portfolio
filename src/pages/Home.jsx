@@ -21,7 +21,7 @@ function Home() {
             <Button
               variant="dark"
               className="mt-3 p-2"
-              href="https://drive.google.com/file/d/17HRgo53-wI53e6puLz22DVWmMvRyl3G-/view?usp=drive_link"
+              href="https://drive.google.com/file/d/10mSYdJUXlyQe_9Z6LXOtmIA33y5a7dHE/view?usp=drivesdk"
             >
               Download Resume
             </Button>

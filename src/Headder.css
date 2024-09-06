@@ -106,3 +106,26 @@ font-size: 25px;
 .navbarchild .navbar-toggler.active .icon-bar:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }
+.thick-border {
+  position: relative;
+  padding-bottom: 5px; /* Adjust padding as needed */
+}
+
+.thick-border::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px; /* Thickness of the border */
+  background-color: grey; /* Border color */
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.thick-border:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
